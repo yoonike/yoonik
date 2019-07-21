@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <AppHeader />
     <van-row type="flex" justify="space-around">
       <van-col
         v-for="(item,index) in tags"
@@ -7,31 +8,34 @@
         :span="Math.ceil(24/tags.length)"
         :class="{active:index==active}"
       >
-        <router-link :to="item.name" @click="clickTag(index)">{{item.title}}</router-link>
+        <span @click="clickTag(index,item)">{{item.title}}</span>
       </van-col>
     </van-row>
     <router-view />
   </div>
 </template>
 <script>
+import AppHeader from "@/components/AppHeader";
+
 export default {
   name: "app",
+  components: { AppHeader },
   data() {
     return {
       active: 0,
       tags: [
-        { title: "首页", name: "/" },
+        { title: "首页", name: "home" },
         { title: "电影", name: "movie" },
-        { title: "电视剧", name: "movie1" },
+        { title: "电视剧", name: "home" },
         { title: "综艺", name: "movie4" },
         { title: "动漫", name: "movie2" }
       ]
     };
   },
   methods: {
-    clickTag(index) {
+    clickTag(index, item) {
       this.active = index;
-      // console.log("index", index);
+      this.$router.push(item.name);
     }
   }
 };
@@ -53,12 +57,14 @@ export default {
     background-color: #252525;
     line-height: 40px;
     height: 40px;
-    a {
+    a,
+    span {
       color: #fff;
       display: block;
     }
     .active {
-      a {
+      a,
+      span {
         color: salmon;
       }
     }

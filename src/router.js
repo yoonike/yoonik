@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
+
 import Home from "./views/Home.vue";
 import HomeData from "./views/HomeData.vue";
 import Movie from "./views/Movie.vue";

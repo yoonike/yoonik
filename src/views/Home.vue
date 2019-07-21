@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <van-notice-bar :text="noticeTxt" left-icon="volume-o" />
+    <van-notice-bar :text="noticeTxt" left-icon="volume-o"  mode="closeable" />
     <van-tabs v-model="active">
       <van-tab v-for="(item,index) in movieTags" :key="index" :title="item.title">
         <!-- 电影列表 -->
@@ -14,7 +14,7 @@ import MoveiList from "@/components/MovieList";
 import { mapState, mapGetters, mapMutations } from "vuex";
 import { stringify } from "querystring";
 export default {
-  name: "about",
+  name: "home",
   components: { MoveiList },
   data() {
     return {
