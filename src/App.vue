@@ -31,7 +31,7 @@ export default {
   methods: {
     clickTag(index) {
       this.active = index;
-      console.log("index", index);
+      // console.log("index", index);
     }
   }
 };
