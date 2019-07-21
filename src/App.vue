@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <AppHeader />
+    <!-- 粘性布局 -->
     <van-row type="flex" justify="space-around">
       <van-col
         v-for="(item,index) in tags"
