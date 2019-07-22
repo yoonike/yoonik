@@ -1,7 +1,11 @@
 <template>
   <div class="movieSearch">
     <van-tabs>
-      <van-tab v-for="(item,index) in cate" :key="index" :title="'item.name ' + index">内容 {{ index }}</van-tab>
+      <van-tab
+        v-for="(item,index) in cate"
+        :key="index"
+        :title="'item.name ' + index"
+      >内容 {{ index }}</van-tab>
     </van-tabs>
   </div>
 </template>
