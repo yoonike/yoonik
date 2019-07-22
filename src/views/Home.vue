@@ -12,7 +12,6 @@
 <script>
 import MoveiList from "@/components/MovieList";
 import { mapState, mapGetters, mapMutations } from "vuex";
-import { stringify } from "querystring";
 export default {
   name: "home",
   components: { MoveiList },
@@ -26,22 +25,14 @@ export default {
         { name: "tv", title: "电视剧" },
         { name: "show", title: "综艺" },
         { name: "comic", title: "动漫" }
-      ],
-      movieList: {}
+      ]
     };
   },
   created() {},
   computed: {
-    localName() {
-      return "good";
-    },
-    ...mapState(["count", "name"]),
-    ...mapGetters(["nowTime"])
+    ...mapState(["movieList"])
   },
   methods: {
-    add() {
-      this.$store.commit("increment", { count: 10 });
-    },
     jumpDetail(item) {
       console.log(item);
       this.$toast({

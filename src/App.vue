@@ -17,7 +17,7 @@
 </template>
 <script>
 import AppHeader from "@/components/AppHeader";
-
+import { mapAction } from "vuex";
 export default {
   name: "app",
   components: { AppHeader },
@@ -33,10 +33,20 @@ export default {
       ]
     };
   },
+  created() {
+    this.getMovieList();
+  },
   methods: {
-    clickTag(index, item) {
-      this.active = index;
-      this.$router.push(item.name);
+    getMovieList() {
+      // 获取电影资源
+      this.$http.get("/movie.json").then(res => {
+        // 同步vuex
+        this.$toast({
+          type: "success",
+          message: "加载成功"
+        });
+        this.$store.dispatch("setMovieList", res.data);
+      });
     }
   }
 };

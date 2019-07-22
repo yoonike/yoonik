@@ -5,12 +5,9 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    name: "",
     count: 0,
-    name: "tangtang1024",
-    todos: [
-      { id: 1, text: "...", done: true },
-      { id: 2, text: "...", done: false }
-    ]
+    movieList: {}
   },
   getters: {
     nowTime: state => {
@@ -19,9 +16,13 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    increment(state, payload) {
-      state.count += payload.count;
+    setMovieList(state, movieList) {
+      state.movieList = movieList;
     }
   },
-  actions: {}
+  actions: {
+    setMovieList({ commit }, movieList) {
+      commit("setMovieList", movieList);
+    }
+  }
 });

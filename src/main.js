@@ -7,14 +7,12 @@ import elementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 import Vant from "vant";
 import "vant/lib/index.css";
-import axios from "axios";
-import qs from "qs";
+import Http from "./request/http";
 
 Vue.use(elementUI);
 Vue.use(Vant);
 Vue.config.productionTip = false;
-
-Vue.prototype.axios = axios;
+Vue.prototype.$http = new Http();
 new Vue({
   router,
   store,

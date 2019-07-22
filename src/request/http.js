@@ -1,27 +1,17 @@
 import axios from "axios";
 import qs from "qs";
-import { message } from "element-ui";
+import { Toast } from "vant";
 
-let baseURL =
-  location.hostname == localhost
-    ? "/api/djzchina-ops-b-api/"
-    : "/djzchina-ops-b-api/";
+// let baseURL =
+//   location.hostname == 'localhost'
+//     ? "/api/djzchina-ops-b-api/"
+//     : "/djzchina-ops-b-api/";
 
 const instance = axios.create({
-  baseURL,
+  baseURL: "",
   timeout: 1000,
   headers: { "X-Custom-Header": "foobar" }
 });
-axios
-  .post("/task/getBrandListByUser")
-  .then(function(response) {
-    if (response.data.code == 0) {
-      console.log(response.data.data);
-    }
-  })
-  .catch(function(error) {
-    console.log(error);
-  });
 // Add a request interceptor
 instance.interceptors.request.use(
   function(config) {
@@ -38,10 +28,31 @@ instance.interceptors.request.use(
 instance.interceptors.response.use(
   function(response) {
     // Do something with response data
+    // Toast.success(response);
     return response;
   },
   function(error) {
     // Do something with response error
+    // Toast.fail(error);
     return Promise.reject(error);
   }
 );
+export default class Http {
+  constructor() {}
+  post(url, params = {}, contentType = "application/x-www-form-urlencoded") {
+    return instance({
+      method: "POST",
+      headers: { "content-type": contentType },
+      data: qs.stringify(params),
+      url
+    });
+  }
+  get(url, params = {}, contentType = "application/x-www-form-urlencoded") {
+    return instance({
+      method: "GET",
+      headers: { "content-type": contentType },
+      data: qs.stringify(params),
+      url
+    });
+  }
+}
