@@ -36,18 +36,25 @@ export default {
     };
   },
   computed: {
-    movieList() {
-      return this.movieCopyList.length ? this.movieCopyList : this.list;
+    movieList: {
+      get() {
+        return this.movieCopyList.length
+          ? this.movieCopyList
+          : JSON.parse(JSON.stringify(this.list));
+      },
+      set(newVal) {
+        this.movieCopyList = newVal;
+      }
     }
   },
   methods: {
     onRefresh() {
       let arr = [],
-        oldList = this.list.length ? this.list : this.movieCopyList;
+        oldList = JSON.parse(JSON.stringify(this.movieList));
       while (oldList.length) {
         arr.push(...oldList.splice(Math.random() * oldList.length, 1));
       }
-      this.movieCopyList = JSON.parse(JSON.stringify(arr));
+      this.movieList = JSON.parse(JSON.stringify(arr));
       this.$toast({
         duration: 300,
         message: "刷新成功"
