@@ -38,7 +38,7 @@ export default {
   methods: {
     getMovieList() {
       // 获取电影资源
-      this.$http.get("/movie.json").then(res => {
+      this.$http.get("./movie.json").then(res => {
         // 同步vuex
         this.$toast({
           type: "success",
