@@ -1,14 +1,16 @@
 <template>
   <div class="comic">
-    动漫筛选组件
+    <!-- 影视筛选 -->
+    <MovieSearch />
     <MovieList :list="movieList" />
   </div>
 </template>
 <script>
+import MovieSearch from "@/components/MovieSearch";
 import MovieList from "@/components/MovieList";
 export default {
   name: "comic",
-  components: { MovieList },
+  components: { MovieSearch, MovieList },
   data() {
     return {};
   },

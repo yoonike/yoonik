@@ -1,15 +1,17 @@
 <template>
   <div class="movie">
-    筛选条件组件
+    <!-- 影视筛选 -->
+    <MovieSearch />
     <!-- 电影列表 -->
     <MovieList :list="movieList" />
   </div>
 </template>
 <script>
+import MovieSearch from "@/components/MovieSearch";
 import MovieList from "@/components/MovieList";
 export default {
   name: "movie",
-  components: { MovieList },
+  components: { MovieSearch, MovieList },
   data() {
     return {};
   },
@@ -18,9 +20,7 @@ export default {
       return this.$store.state.movieList.movie;
     }
   },
-  methods: {
-
-  }
+  methods: {}
 };
 </script>
 <style lang="less" scoped>

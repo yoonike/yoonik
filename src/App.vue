@@ -6,11 +6,25 @@
         v-for="(item,index) in tags"
         :key="index"
         :span="Math.ceil(24/tags.length)"
-        :class="{active:index==active}"
+        :class="{active:$route.fullPath.match(item.name)}"
       >
         <span @click="clickTag(index,item)">{{item.title}}</span>
       </van-col>
     </van-row>
+    <!-- <van-tabbar
+      route
+      v-model="active"
+      active-color="#fa8072"
+      inactive-color="#07c160"
+      @change="clickTag"
+    >
+      <van-tabbar-item
+        v-for="(item,index) in tags"
+        :key="index"
+        replace
+        :to="item.name"
+      >{{item.title}}</van-tabbar-item>
+    </van-tabbar>-->
     <router-view />
   </div>
 </template>
@@ -22,7 +36,6 @@ export default {
   components: { AppHeader },
   data() {
     return {
-      active: 0,
       tags: [
         { title: "首页", name: "home" },
         { title: "电影", name: "movie" },
@@ -49,7 +62,6 @@ export default {
       });
     },
     clickTag(index, item) {
-      this.active = index;
       this.$router.push(item.name);
     }
   }
@@ -80,7 +92,7 @@ export default {
     .active {
       a,
       span {
-        color: salmon;
+        color: #fa8072;
       }
     }
   }

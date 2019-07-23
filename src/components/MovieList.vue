@@ -48,6 +48,14 @@ export default {
     }
   },
   methods: {
+    jumpDetail(item) {
+      this.$toast({
+        type: "loading",
+        message: "即将跳转"
+      });
+      this.$router.push("movieDetail");
+      this.$toast.clear();
+    },
     onRefresh() {
       let arr = [],
         oldList = JSON.parse(JSON.stringify(this.movieList));
@@ -70,6 +78,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  padding: 4px;
   & > li {
     width: 30%;
     margin: 10px 0;

@@ -33,15 +33,7 @@ export default {
     ...mapState(["movieList"])
   },
   methods: {
-    jumpDetail(item) {
-      console.log(item);
-      this.$toast({
-        type: "loading",
-        message: "即将跳转"
-      });
-      this.$router.push("movieDetail");
-      this.$toast.clear();
-    }
+
   }
 };
 </script>
