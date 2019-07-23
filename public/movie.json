@@ -107,7 +107,7 @@
             "title": "怪奇物语 第三季",
             "url": "https://movie.douban.com/subject/27119156/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2558683543.jpg",
+            "cover": "./img/movies/p2558683543.jpg",
             "id": "27119156",
             "cover_y": 2222,
             "is_new": false
@@ -118,7 +118,7 @@
             "title": "权力的游戏 第八季",
             "url": "https://movie.douban.com/subject/26584183/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2552503815.jpg",
+            "cover": "./img/movies/p2552503815.jpg",
             "id": "26584183",
             "cover_y": 2731,
             "is_new": false
@@ -129,7 +129,7 @@
             "title": "性爱自修室 第一季",
             "url": "https://movie.douban.com/subject/27594217/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2544377943.jpg",
+            "cover": "./img/movies/p2544377943.jpg",
             "id": "27594217",
             "cover_y": 2222,
             "is_new": false
@@ -140,7 +140,7 @@
             "title": "姿态 第二季",
             "url": "https://movie.douban.com/subject/30271840/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2555634785.jpg",
+            "cover": "./img/movies/p2555634785.jpg",
             "id": "30271840",
             "cover_y": 1350,
             "is_new": false
@@ -151,7 +151,7 @@
             "title": "瑞克和莫蒂 第三季",
             "url": "https://movie.douban.com/subject/26592971/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2453814101.jpg",
+            "cover": "./img/movies/p2453814101.jpg",
             "id": "26592971",
             "cover_y": 640,
             "is_new": false
@@ -173,7 +173,7 @@
             "title": "大群 第三季",
             "url": "https://movie.douban.com/subject/30238131/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2558262776.jpg",
+            "cover": "./img/movies/p2558262776.jpg",
             "id": "30238131",
             "cover_y": 2700,
             "is_new": false
@@ -184,7 +184,7 @@
             "title": "大小谎言 第二季",
             "url": "https://movie.douban.com/subject/27195401/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2558544696.jpg",
+            "cover": "./img/movies/p2558544696.jpg",
             "id": "27195401",
             "cover_y": 889,
             "is_new": false
@@ -195,7 +195,7 @@
             "title": "嫁接者",
             "url": "https://movie.douban.com/subject/27101873/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561240270.jpg",
+            "cover": "./img/movies/p2561240270.jpg",
             "id": "27101873",
             "cover_y": 1536,
             "is_new": true
@@ -206,7 +206,7 @@
             "title": "亢奋 第一季",
             "url": "https://movie.douban.com/subject/30181462/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2556252082.jpg",
+            "cover": "./img/movies/p2556252082.jpg",
             "id": "30181462",
             "cover_y": 1500,
             "is_new": false
@@ -217,7 +217,7 @@
             "title": "爱，死亡和机器人 第一季",
             "url": "https://movie.douban.com/subject/30424374/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2548248276.jpg",
+            "cover": "./img/movies/p2548248276.jpg",
             "id": "30424374",
             "cover_y": 2222,
             "is_new": false
@@ -241,7 +241,7 @@
             "title": "乐队的夏天",
             "url": "https://movie.douban.com/subject/30357990/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2556110785.jpg",
+            "cover": "./img/movies/p2556110785.jpg",
             "id": "30357990",
             "cover_y": 1920,
             "is_new": false
@@ -252,7 +252,7 @@
             "title": "这！就是街舞 第二季",
             "url": "https://movie.douban.com/subject/30486671/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2552553650.jpg",
+            "cover": "./img/movies/p2552553650.jpg",
             "id": "30486671",
             "cover_y": 1566,
             "is_new": false
@@ -263,7 +263,7 @@
             "title": "极速前进 第三十一季",
             "url": "https://movie.douban.com/subject/30245368/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2553912413.jpg",
+            "cover": "./img/movies/p2553912413.jpg",
             "id": "30245368",
             "cover_y": 1000,
             "is_new": true
@@ -307,7 +307,7 @@
             "title": "我们是真正的朋友",
             "url": "https://movie.douban.com/subject/30468808/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2555955734.jpg",
+            "cover": "./img/movies/p2555955734.jpg",
             "id": "30468808",
             "cover_y": 13034,
             "is_new": false
@@ -318,7 +318,7 @@
             "title": "极限挑战 第五季",
             "url": "https://movie.douban.com/subject/30488068/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2556238161.jpg",
+            "cover": "./img/movies/p2556238161.jpg",
             "id": "30488068",
             "cover_y": 1800,
             "is_new": false
@@ -329,7 +329,7 @@
             "title": "中国新说唱 第二季",
             "url": "https://movie.douban.com/subject/30357985/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2556109024.jpg",
+            "cover": "./img/movies/p2556109024.jpg",
             "id": "30357985",
             "cover_y": 1920,
             "is_new": false
@@ -351,7 +351,7 @@
             "title": "忘不了餐厅",
             "url": "https://movie.douban.com/subject/30474718/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2553826944.jpg",
+            "cover": "./img/movies/p2553826944.jpg",
             "id": "30474718",
             "cover_y": 1759,
             "is_new": false
@@ -362,7 +362,7 @@
             "title": "声入人心 第一季",
             "url": "https://movie.douban.com/subject/30353394/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2537774816.jpg",
+            "cover": "./img/movies/p2537774816.jpg",
             "id": "30353394",
             "cover_y": 1834,
             "is_new": false
@@ -375,7 +375,7 @@
             "title": "进击的巨人 第三季 Part.2",
             "url": "https://movie.douban.com/subject/30353357/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2550184312.jpg",
+            "cover": "./img/movies/p2550184312.jpg",
             "id": "30353357",
             "cover_y": 2048,
             "is_new": false
@@ -386,7 +386,7 @@
             "title": "卡罗尔与星期二",
             "url": "https://movie.douban.com/subject/30163813/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2545649085.jpg",
+            "cover": "./img/movies/p2545649085.jpg",
             "id": "30163813",
             "cover_y": 780,
             "is_new": false
@@ -397,7 +397,7 @@
             "title": "某科学的一方通行",
             "url": "https://movie.douban.com/subject/30337233/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2557775680.jpg",
+            "cover": "./img/movies/p2557775680.jpg",
             "id": "30337233",
             "cover_y": 2200,
             "is_new": true
@@ -408,7 +408,7 @@
             "title": "致曾为神之众兽",
             "url": "https://movie.douban.com/subject/30457987/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2558568793.jpg",
+            "cover": "./img/movies/p2558568793.jpg",
             "id": "30457987",
             "cover_y": 1280,
             "is_new": true
@@ -430,7 +430,7 @@
             "title": "新石纪",
             "url": "https://movie.douban.com/subject/30377498/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2548041043.jpg",
+            "cover": "./img/movies/p2548041043.jpg",
             "id": "30377498",
             "cover_y": 800,
             "is_new": false
@@ -452,7 +452,7 @@
             "title": "骚动时节的少女们啊",
             "url": "https://movie.douban.com/subject/30377707/",
             "playable": false,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2558335133.jpg",
+            "cover": "./img/movies/p2558335133.jpg",
             "id": "30377707",
             "cover_y": 2000,
             "is_new": true
@@ -463,7 +463,7 @@
             "title": "炎炎消防队",
             "url": "https://movie.douban.com/subject/30377497/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554344995.jpg",
+            "cover": "./img/movies/p2554344995.jpg",
             "id": "30377497",
             "cover_y": 1000,
             "is_new": false
@@ -474,7 +474,7 @@
             "title": "一拳超人 第二季",
             "url": "https://movie.douban.com/subject/26882339/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2549894230.jpg",
+            "cover": "./img/movies/p2549894230.jpg",
             "id": "26882339",
             "cover_y": 1000,
             "is_new": false
@@ -485,7 +485,7 @@
             "title": "冰海战记",
             "url": "https://movie.douban.com/subject/30174419/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2531708210.jpg",
+            "cover": "./img/movies/p2531708210.jpg",
             "id": "30174419",
             "cover_y": 1058,
             "is_new": true
@@ -507,7 +507,7 @@
             "title": "擅长捉弄的高木同学 第二季",
             "url": "https://movie.douban.com/subject/30428368/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2555053834.jpg",
+            "cover": "./img/movies/p2555053834.jpg",
             "id": "30428368",
             "cover_y": 800,
             "is_new": true
@@ -518,7 +518,7 @@
             "title": "海贼王",
             "url": "https://movie.douban.com/subject/1453238/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2197828404.jpg",
+            "cover": "./img/movies/p2197828404.jpg",
             "id": "1453238",
             "cover_y": 887,
             "is_new": false
@@ -529,7 +529,7 @@
             "title": "流汗吧！健身少女",
             "url": "https://movie.douban.com/subject/30433614/",
             "playable": true,
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2557226554.jpg",
+            "cover": "./img/movies/p2557226554.jpg",
             "id": "30433614",
             "cover_y": 990,
             "is_new": false
