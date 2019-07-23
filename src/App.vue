@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <AppHeader />
-    <!-- 粘性布局 -->
     <van-row type="flex" justify="space-around">
       <van-col
         v-for="(item,index) in tags"
@@ -27,9 +26,9 @@ export default {
       tags: [
         { title: "首页", name: "home" },
         { title: "电影", name: "movie" },
-        { title: "电视剧", name: "home" },
-        { title: "综艺", name: "movie4" },
-        { title: "动漫", name: "movie2" }
+        { title: "电视剧", name: "tv" },
+        { title: "综艺", name: "show" },
+        { title: "动漫", name: "comic" }
       ]
     };
   },
@@ -47,6 +46,10 @@ export default {
         });
         this.$store.dispatch("setMovieList", res.data);
       });
+    },
+    clickTag(index, item) {
+      this.active = index;
+      this.$router.push(item.name);
     }
   }
 };

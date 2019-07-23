@@ -1,24 +1,21 @@
 <template>
-  <div class="movie">
-    筛选条件组件
-    <!-- 电影列表 -->
+  <div class="comic">
+    动漫筛选组件
     <MovieList :list="movieList" />
   </div>
 </template>
 <script>
 import MovieList from "@/components/MovieList";
 export default {
-  name: "movie",
+  name: "comic",
   components: { MovieList },
   data() {
     return {};
   },
   computed: {
     movieList() {
-      return this.$store.state.movieList.movie;
+      return this.$store.state.movieList.comic;
     }
   }
 };
 </script>
-<style lang="less" scoped>
-</style>
