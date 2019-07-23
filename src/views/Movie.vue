@@ -17,6 +17,9 @@ export default {
     movieList() {
       return this.$store.state.movieList.movie;
     }
+  },
+  methods: {
+
   }
 };
 </script>

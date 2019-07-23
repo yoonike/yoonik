@@ -41,6 +41,7 @@ export default {
       this.$http.get("./movie.json").then(res => {
         // 同步vuex
         this.$toast({
+          duration: 300,
           type: "success",
           message: "加载成功"
         });

@@ -162,7 +162,7 @@
             "title": "神盾局特工 第六季",
             "url": "https://movie.douban.com/subject/30222722/",
             "playable": false,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2555422129.jpg",
+            "cover": "./img/movies/p2555422129.jpg",
             "id": "30222722",
             "cover_y": 3000,
             "is_new": false
@@ -228,7 +228,7 @@
             "title": "使女的故事 第三季",
             "url": "https://movie.douban.com/subject/30212003/",
             "playable": false,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2559470557.jpg",
+            "cover": "./img/movies/p2559470557.jpg",
             "id": "30212003",
             "cover_y": 1500,
             "is_new": false
@@ -274,7 +274,7 @@
             "title": "地产孖宝 第一季",
             "url": "https://movie.douban.com/subject/33374859/",
             "playable": false,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551567769.jpg",
+            "cover": "./img/movies/p2551567769.jpg",
             "id": "33374859",
             "cover_y": 1166,
             "is_new": true
@@ -285,7 +285,7 @@
             "title": "花样新世界",
             "url": "https://movie.douban.com/subject/34450827/",
             "playable": true,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561248118.jpg",
+            "cover": "./img/movies/p2561248118.jpg",
             "id": "34450827",
             "cover_y": 2658,
             "is_new": true
@@ -296,7 +296,7 @@
             "title": "向往的生活 第三季",
             "url": "https://movie.douban.com/subject/30441625/",
             "playable": true,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2553367338.jpg",
+            "cover": "./img/movies/p2553367338.jpg",
             "id": "30441625",
             "cover_y": 4000,
             "is_new": false
@@ -340,7 +340,7 @@
             "title": "奇遇人生",
             "url": "https://movie.douban.com/subject/30304024/",
             "playable": true,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2533929218.jpg",
+            "cover": "./img/movies/p2533929218.jpg",
             "id": "30304024",
             "cover_y": 2972,
             "is_new": false
@@ -419,7 +419,7 @@
             "title": "全缉毒狂潮",
             "url": "https://movie.douban.com/subject/30419713/",
             "playable": false,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2559977207.jpg",
+            "cover": "./img/movies/p2559977207.jpg",
             "id": "30419713",
             "cover_y": 2122,
             "is_new": true
@@ -441,7 +441,7 @@
             "title": "女高中生的浪费青春",
             "url": "https://movie.douban.com/subject/30446496/",
             "playable": true,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551500657.jpg",
+            "cover": "./img/movies/p2551500657.jpg",
             "id": "30446496",
             "cover_y": 1024,
             "is_new": false
@@ -496,7 +496,7 @@
             "title": "鬼灭之刃",
             "url": "https://movie.douban.com/subject/30210221/",
             "playable": true,
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551222097.jpg",
+            "cover": "./img/movies/p2551222097.jpg",
             "id": "30210221",
             "cover_y": 2121,
             "is_new": false
